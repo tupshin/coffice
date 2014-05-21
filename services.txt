@@ -1,0 +1,15 @@
+/sensor/type/:name
+Provides last sensor reading received for all sensors with a sensor_type of :name.
+:name is required
+
+/sensor/:sensor_id/day/:day
+Provides list of all sensor messages for provided sensor_id of :sensor_id for a given day of value :day (in yyyymmdd format)
+:sensor_id is required
+:day is required
+
+/sensor/:sensor_id/day/:day/start/:start/end/:end
+Provides a list of all sensor messages for a provided sensor_id of :sensor_id for a given day of value :day (in yyyymmdd format) with a time range of start/:start to end/:end.  Timestamps are in format of yyyymmddhhMMss.
+:sensor_id is requried
+:day is requried
+:start is required
+:end is required
