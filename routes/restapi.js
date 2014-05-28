@@ -3,7 +3,7 @@ var router = express.Router();
 var dateFormat = require('dateformat');
 
 var cql = require('node-cassandra-cql');
-var client = new cql.Client({hosts: ['208.96.49.194', '208.96.49.194', '208.96.49.194'], keyspace: 'coffice'});
+var client = new cql.Client({hosts: ['208.96.49.194', '208.96.49.195', '208.96.49.196'], keyspace: 'coffice'});
 
 
 /* GET users listing. */
